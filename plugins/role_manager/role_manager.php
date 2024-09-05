@@ -1,6 +1,4 @@
 <?php
-require_once '../includes/init.php';
-require_once '../includes/security.php';
 
 // Überprüfen, ob der Benutzer Admin ist
 if (!user_has_role($_SESSION['user_id'], 'admin')) {
